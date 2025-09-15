@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background: #3b5998;
+  padding: 10px;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.search-bar {
+  flex: 1;
+  padding: 6px 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.navbar nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  margin: 20px;
+}
+
+.sidebar {
+  width: 20%;
+  padding: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 8px;
+  margin: 5px 0;
+  background: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.feed {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.create-post {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#create-post textarea,
+#create-post button {
+  display: block;
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+button {
+  padding: 10px;
+  background: #3b5998;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #365492;
+}
+
+.post {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
